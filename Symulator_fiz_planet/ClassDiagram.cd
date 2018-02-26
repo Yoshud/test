@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="wektor_3D&lt;typ&gt;" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAEAAAIAAAAAAAAIAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>wektor_3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Symulacja" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAFAAQAAAAAAAAAAEAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Symulacja.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Srodowisko" Collapsed="true">
+    <Position X="15.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAQCAAAACAAEgBAAAAAA=</HashCode>
+      <FileName>Srodowisko.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obj_fiz_typ" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="obj_fiz" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="1.062" />
+        <Point X="5" Y="1.471" />
+        <Point X="2.25" Y="1.471" />
+        <Point X="2.25" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAEBAAEA=</HashCode>
+      <FileName>obj_fiz_typ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obj_fiz_sym" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>obj_fiz_sym.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obj_fiz" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAASAAAAAAAEAAAQQgAAABAAEAAAAQAAAAAASBAAgA=</HashCode>
+      <FileName>obj_fiz.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ksztalt" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAgAAAAAAAAAAAAAAAAAAAAAQAAAgAAAABAAAA=</HashCode>
+      <FileName>ksztalt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ksztalt_prosty" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAAUAAAAAAAAFAAAA=</HashCode>
+      <FileName>ksztalt_prosty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wieloksztalt" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="ksztalt" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="1.062" />
+        <Point X="13" Y="1.2" />
+        <Point X="14" Y="1.2" />
+        <Point X="14" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>wieloksztalt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kolo" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>kolo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wielokat" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>wielokat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sym_Newton" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAABAABAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sym_Newton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sym_Newton_prosta" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>sym_Newton_prosta.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sym_Newton_z_skonczona_predkoscia_grawitacji" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAgAEAAQAAAAABAEEAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>sym_Newton_z_skonczona_predkoscia_grawitacji.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sym_Relatywistyczna" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sym_Relatywistyczna.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obiekt_kolowy" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAABAAAACAA=</HashCode>
+      <FileName>obiekt_kolowy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wektor_2D&lt;typ&gt;" Collapsed="true">
+    <Position X="15.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAEAAAAAAAAAQAAIABAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>wektor_2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dane_obj" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAGAAAAAAAAAAAAAEAAQAAASA=</HashCode>
+      <FileName>dane_obj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="obj_zlozony" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>obj_zlozony.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zbior_punktow_materialnych" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zbior_punktow_materialnych.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="odcinek" Collapsed="true">
+    <Position X="15.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAiAAAAAAAAgAQAAAAAAEAAAAAAgAQAEAAAAAAA=</HashCode>
+      <FileName>zbior_punktow_opisujacych_figure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zbior_punktow_opisujacych_figure" Collapsed="true">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAhAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zbior_punktow_opisujacych_figure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="opoznienie" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAACAAACAAAQAAAAEIAAAAA=</HashCode>
+      <FileName>opoznienie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="planeta_Newton_prosty" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="sym_Newton_prosta" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="5.191" />
+        <Point X="5.75" Y="5.94" />
+        <Point X="5.75" Y="5.94" />
+        <Point X="5.75" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="obiekt_kolowy" ManuallyRouted="true">
+      <Path>
+        <Point X="1.25" Y="3.691" />
+        <Point X="1.25" Y="5.912" />
+        <Point X="5.75" Y="5.912" />
+        <Point X="5.75" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>planeta_Newton_prosty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="planeta_Newton_zloz" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>planeta_Newton_prosty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="przemieszczenie" Collapsed="true">
+    <Position X="17.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQBgAAAAAAAA=</HashCode>
+      <FileName>przemieszczenie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="punkt_materialny_pomocniczy" Collapsed="true">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAACg=</HashCode>
+      <FileName>punkt_materialny_pomocniczy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zbior_punktow_materialnych_pomocniczy" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>punkt_materialny_pomocniczy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="warunek_stop" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>warunki_stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="warunki_stop" Collapsed="true">
+    <Position X="17.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAABAAA=</HashCode>
+      <FileName>warunki_stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wyjscie_poza_srodowisko" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>warunki_stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="limit_czasu" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>warunki_stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zderzenia" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>warunki_stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="kolo_punkt" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>zbior_punktow_opisujacych_figure.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wektor_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symulacja.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Srodowisko.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_fiz_typ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_fiz_sym.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_fiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ksztalt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ksztalt_prosty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wieloksztalt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kolo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wielokat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sym_Newton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sym_Newton_prosta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sym_Newton_z_skonczona_predkoscia_grawitacji.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sym_Relatywistyczna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obiekt_kolowy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wektor_2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dane_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_zlozony.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zbior_punktow_materialnych.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zbior_punktow_opisujacych_figure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="planeta_Newton_prosty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="punkt_materialny_pomocniczy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="przemieszczenie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opoznienie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="warunki_stop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wektor_3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Symulacja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Srodowisko.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_fiz_typ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_fiz_sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_fiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ksztalt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ksztalt_prosty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wieloksztalt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kolo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wielokat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sym_Newton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sym_Newton_prosta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sym_Newton_z_skonczona_predkoscia_grawitacji.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sym_Relatywistyczna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obiekt_kolowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wektor_2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dane_obj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_zlozony.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zbior_punktow_materialnych.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zbior_punktow_opisujacych_figure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="planeta_Newton_prosty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="punkt_materialny_pomocniczy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="przemieszczenie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opoznienie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warunki_stop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
