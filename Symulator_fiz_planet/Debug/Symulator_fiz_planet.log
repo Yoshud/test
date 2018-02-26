@@ -1,5 +1,0 @@
-﻿  sym_Newton_z_skonczona_predkoscia_grawitacji.cpp
-e:\notatki\programowanie\projekty\studia\proe\symulator_fiz_planet\symulator_fiz_planet\sym_newton_z_skonczona_predkoscia_grawitacji.cpp(51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-e:\notatki\programowanie\projekty\studia\proe\symulator_fiz_planet\symulator_fiz_planet\sym_newton_z_skonczona_predkoscia_grawitacji.cpp(56): warning C4018: '<': signed/unsigned mismatch
-  Symulator_fiz_planet.vcxproj -> E:\Notatki\programowanie\Projekty\Studia\PROE\Symulator_fiz_planet\Debug\Symulator_fiz_planet.exe
-  Symulator_fiz_planet.vcxproj -> E:\Notatki\programowanie\Projekty\Studia\PROE\Symulator_fiz_planet\Debug\Symulator_fiz_planet.pdb (Partial PDB)
