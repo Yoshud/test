@@ -2,13 +2,12 @@
 #include "obj_fiz.h"
 #include <list>
 #include <vector>
-//#include <boost>
+
 class warunek_stop
 {
 public:
 
 	virtual int zwroc_numer() = 0;
-	//virtual bool czy_spelniony(obj_fiz* obiekt) = 0;
 	virtual bool czy_spelniony(vector<obj_fiz*>& obiekty, Srodowisko& granice, sf::Time& delta_time, sf::Time& sym_time) = 0; //true jesli kontynuowac symulacje
 	
 

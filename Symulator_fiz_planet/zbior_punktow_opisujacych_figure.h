@@ -22,19 +22,9 @@ public:
 	wektor_2D<double>* punkt_2;
 	double a;
 	double b;
-	/*	(x1,y1) (x2,y2)
-	y1 = ax1 + b
-	y2 = ax2 + b
-	y1 - y2 = a(x1 - x2)
-	a =  (y1 - y2)/(x1-x2)*/
-
 	bool przeciecie(odcinek& drugi_odc)
 	{
-		//y1 = a1x + b1
-		//y2 = a2x + b2
-		//a2x + b2 = a1x+b1
-		//x = (b1 - b2)/(a2-a1)
-
+	
 		double x = (b - drugi_odc.b) / (drugi_odc.a - a);
 		if (nalezy_x(x))
 		{

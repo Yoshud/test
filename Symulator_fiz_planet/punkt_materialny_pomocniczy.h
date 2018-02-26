@@ -17,7 +17,5 @@ class zbior_punktow_materialnych_pomocniczy
 {
 public:
 	zbior_punktow_materialnych_pomocniczy(vector<punkt_materialny_pomocniczy> punkty_materialne) : punkty_materialne(punkty_materialne){}
-	//~zbior_punktow_materialnych_pomocniczy();
-	
 	vector<punkt_materialny_pomocniczy> punkty_materialne;
 };

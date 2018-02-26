@@ -9,16 +9,6 @@ const dane_obj & obj_fiz::zwroc_dane()
 }
 
 
-//const dane_obj & obj_fiz::zwroc_dane() const
-//{
-//	return dane;
-//}
-
 obj_fiz::obj_fiz()
 {
 }
-
-
-//obj_fiz::~obj_fiz()
-//{
-//}

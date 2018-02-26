@@ -43,15 +43,4 @@ bool Srodowisko::czy_punkt_miesci_sie_w_srodowisku(wektor_2D<double> srodek, dou
 		return true;
 	else return false;
 }
-//
-//bool Srodowisko::czy_obiekty_mieszcza_sie_w_srodowisku(vector<obj_fiz*>& obiekty)
-//{
-//	bool flaga = true;
-//	for (int i = 0; i < obiekty.size(); i++)
-//	{
-//	//	if (obiekty[i].)
-//		((obj_fiz_typ*)obiekty[i])->sprawdz_wyjscie_poza_granice(this);
-//	}
-//	return false;
-//}
-//
+

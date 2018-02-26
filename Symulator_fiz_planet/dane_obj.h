@@ -1,11 +1,8 @@
 #pragma once
 #include "wektor_2D.h"
-//#include "zbior_punktow_materialnych.h"
 #include "SFML/System.hpp"
 #include "punkt_materialny_pomocniczy.h"
 
-//class zbior_punktow_materialnych;
- 
 class dane_obj
 {
 public:

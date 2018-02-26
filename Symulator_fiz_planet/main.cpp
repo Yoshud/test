@@ -19,24 +19,6 @@ int main()
 	sym.dodaj_obj(&Ziemia);
 	sym.dodaj_obj(&Mars);
 	sym.symuluj();
-	//adam.dane; 
-	//obj_fiz a, b;
-	//vector<obj_fiz> vec{ a,b };
-	//obj_fiz c = obj_fiz(vec);
-	//ofstream& a = cout&;
-	
-
-	wektor_2D<double> wekt_2(1, 2);
-	wektor_3D<double> wekt(3, 4, 5);
-
-	wekt.normalizuj();
-	double norma = wekt.norma_2();
-	cout << wekt; 
-	wekt_2.normalizuj();
-	double norma_2 = wekt_2.norma_2();
-	cout << "norma: " << norma_2 << " " <<wekt_2 << endl;
-
-
 
 	// proba
 	

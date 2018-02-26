@@ -9,7 +9,6 @@ using namespace std;
 class Symulacja
 {
 public:
-	//Symulacja() : zegar_sym(sf::Time::Zero), krok(sf::seconds(60)) {}
 	Symulacja() : zegar_sym(sf::Time::Zero), krok(sf::seconds(60)) {}
 	void dodaj_obj(obj_fiz* obj)
 	{
@@ -24,8 +23,7 @@ public:
 	//wyswietl
 	~Symulacja();
 private:
-	//srodowisko
-	//vector obiektow fizycznych
+
 	Srodowisko obszar;
 	vector<obj_fiz*> obiekty;
 	sf::Time zegar_sym;

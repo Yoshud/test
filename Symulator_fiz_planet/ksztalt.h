@@ -13,7 +13,6 @@ public:
 	virtual bool sprawdz_zderzenie_z(zbior_punktow_opisujacych_figure& fig) = 0;
 
 	virtual bool sprawdz_wyjscie_poza_granice(Srodowisko& granice) = 0;
-	//wyswietl
 	virtual ~ksztalt();
 protected:
 	ksztalt();
