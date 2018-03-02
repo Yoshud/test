@@ -1,0 +1,4 @@
+przekroczono limit czasu renderowania klatki 323240
+przekroczono limit czasu renderowania klatki 50603
+przekroczono limit czasu renderowania klatki 277156
+przekroczono limit czasu renderowania klatki 145353
