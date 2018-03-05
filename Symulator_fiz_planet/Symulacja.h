@@ -15,15 +15,15 @@ public:
 		obiekty.push_back(obj);
 	}
 	void symuluj(); 
-	//dodaj warunek stop
-	//usun warunek stop
+	void dodaj_warunek_stop(warunek_stop_unique* warunek) { warunki_stopu.dodaj_warunek_stop(warunek); } //wywoluje siê konstrukcj¹:  new <nazwa klasy warunku stop>(<parametry wywolania warunku>) np. new limit_czasu(sf::hour = 24) 
+	void usun_warunek(string alias) { warunki_stopu.usun_warunek_stop(alias); } //wywoluje sie podajac jako alias nazwe warunku - analogicznie do python (chyba ze podczas definiowania wlasnego warunku uzna sie inaczej)
+	void ustaw_krok_czasowy(const sf::Time& nowy_krok) { krok = nowy_krok; }
 	//ustal typ symulacji
-	//symuluj, krok czasowy
 	//zmien typ symulacji
-	//wyswietl
 	~Symulacja();
 private:
 
+	warunki_stop warunki_stopu;
 	Srodowisko obszar;
 	vector<obj_fiz*> obiekty;
 	sf::Time zegar_sym;

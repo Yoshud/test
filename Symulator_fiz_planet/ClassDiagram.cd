@@ -10,7 +10,7 @@
   <Class Name="Symulacja" Collapsed="true">
     <Position X="15.25" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAAAFAAQAAAAAAAAAAEAAAAAAADAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAgAAAFAAQAAAAAAEAAAEAAAAAAADAAAAAAAAAAA=</HashCode>
       <FileName>Symulacja.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -138,7 +138,7 @@
   <Class Name="dane_obj" Collapsed="true">
     <Position X="15.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAAAAAAAGAAAAAAAAAAAAAEAAQAAASA=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAGAAAAAEAAAAAAAEAAQAAASA=</HashCode>
       <FileName>dane_obj.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -228,10 +228,10 @@
       <FileName>punkt_materialny_pomocniczy.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="warunek_stop" Collapsed="true">
+  <Class Name="warunek_stop_unique" Collapsed="true">
     <Position X="11" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAgQAAgAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>warunki_stop.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -252,7 +252,7 @@
   <Class Name="limit_czasu" Collapsed="true">
     <Position X="11" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAgAAAAAAgAAAAAAAAgAEAAAAAAAEAAAAAAAA=</HashCode>
       <FileName>warunki_stop.h</FileName>
     </TypeIdentifier>
   </Class>
