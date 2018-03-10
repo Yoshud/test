@@ -12,7 +12,7 @@ public:
 	wektor_2D<double> srodek_masy; 
 	double masa;
 	double moment_pedu;
-	zbior_punktow_materialnych_pomocniczy* opisujace_punkty;
+	zbior_punktow_materialnych_pomocniczy* opisujace_punkty; //wskaznik prawdopodobnie nie jest potrzebny i wystarczylby operator przenoszoacy dla zachowania predkosci
 	sf::Time czas; 
 
 	punkt_materialny_pomocniczy operator[] (int i)

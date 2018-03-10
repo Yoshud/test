@@ -102,7 +102,7 @@ public:
 		{
 			for (it_2 = (it_1 + 1); it_2 != obiekty.end(); it_2++)
 			{
-				if ((*it_1)->sprawdz_zderzenie(*(*it_2))) //jesli jakiekolwiek zderzenie wystepujeprerwij symulacje
+				if ((*it_1)->sprawdz_zderzenie(*(*it_2))) //jesli jakiekolwiek zderzenie wystepuje przerwij symulacje
 					return false;
 			}
 		}

@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dane_init_obj_fiz.cpp" />
     <ClCompile Include="dane_obj.cpp" />
     <ClCompile Include="kolo.cpp" />
     <ClCompile Include="ksztalt.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="sym_Newton_prosta.cpp" />
     <ClCompile Include="sym_Newton_z_skonczona_predkoscia_grawitacji.cpp" />
     <ClCompile Include="sym_Relatywistyczna.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="warunki_stop.cpp" />
     <ClCompile Include="wektor_2D.cpp" />
     <ClCompile Include="wektor_3D.cpp" />
@@ -157,6 +159,7 @@
     <ClCompile Include="zbior_punktow_opisujacych_figure.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dane_init_obj_fiz.h" />
     <ClInclude Include="dane_obj.h" />
     <ClInclude Include="kolo.h" />
     <ClInclude Include="ksztalt.h" />
@@ -177,6 +180,7 @@
     <ClInclude Include="sym_Newton_prosta.h" />
     <ClInclude Include="sym_Newton_z_skonczona_predkoscia_grawitacji.h" />
     <ClInclude Include="sym_Relatywistyczna.h" />
+    <ClInclude Include="test.h" />
     <ClInclude Include="warunki_stop.h" />
     <ClInclude Include="wektor_2D.h" />
     <ClInclude Include="wektor_3D.h" />
