@@ -33,10 +33,10 @@ void sym_Newton_z_skonczona_predkoscia_grawitacji::przygotuj_do_symulacji_sym()
 
 
 
-vector<punkt_materialny_pomocniczy>  sym_Newton_z_skonczona_predkoscia_grawitacji::zwroc_stara_pozycje(const wektor_2D<double>& punkt) const
+vector<punkt_materialny_pomocniczy>  sym_Newton_z_skonczona_predkoscia_grawitacji::zwroc_stara_pozycje(const wektor_2D<double>& punkt) 
 {
 	double d_t = dane.srodek_masy.norma_2(punkt) / c;
-
+	if (opoznienie_maks < sf::seconds(d_t)) opoznienie_maks  = sf::seconds(d_t);
 	return aktualne_opoznienie.zwroc_element(sf::seconds(d_t)).punkty_materialne;
 }
 void sym_Newton_z_skonczona_predkoscia_grawitacji::zakoncz_cykl_sym()
@@ -44,9 +44,9 @@ void sym_Newton_z_skonczona_predkoscia_grawitacji::zakoncz_cykl_sym()
 	aktualne_opoznienie.dodaj_element(*dane.opisujace_punkty, delta_time);
 	for (int i = 0; i < dane.opisujace_punkty->punkty_materialne.size(); i++)
 	{
-
 		dane.opisujace_punkty->punkty_materialne[i].F_vect = wektor_2D<double>(0, 0);
 	}
+	aktualne_opoznienie.usun_zbedne(opoznienie_maks); //przy zalozeniu ze predkosc oddalania sie obiektow nie moze przekroczyc predkosci swiatla 
 
 }
 

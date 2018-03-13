@@ -49,6 +49,12 @@ public:
 	{
 		warunki.erase(alias);
 	}
+
+	void clear()
+	{
+		suma_warunkow = 0;
+		warunki.clear();
+	}
 	~warunki_stop();
 protected:
 	int suma_warunkow;

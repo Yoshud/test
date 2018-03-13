@@ -1,5 +1,29 @@
 #include "Symulacja.h"
+#include <list>
 
+void Symulacja::dodaj_obj(string alias, dane_init_obj_fiz &obj)
+{
+	if (baza.find(alias) != baza.end())
+	{
+		dane_o_obj_do_bazy(obj, -1);
+	}
+	else; //wyjatek
+}
+
+obj_fiz * Symulacja::zwroc_obiekt(string alias)
+{
+	auto it = baza.find(alias);
+	if (it != baza.end())
+	{
+		auto indeks = it->second.indeks_obj;
+		if (0 <= indeks < obiekty.size())
+		{
+				return obiekty[indeks];
+		}
+		else; //wyjatek
+	}
+	else; //wyjatek
+}
 
 void Symulacja::symuluj()
 {

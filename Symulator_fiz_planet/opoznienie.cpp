@@ -32,22 +32,23 @@ zbior_punktow_materialnych_pomocniczy opoznienie::zwroc_element(sf::Time opoznie
 
 void opoznienie::usun_zbedne(sf::Time d_t)
 {
-	auto it = zbior_poprzednich.rbegin();
-	it++;
-	sf::Time suma_opoznien;
-	for (; it != zbior_poprzednich.rend(); it++)
+	if (zbior_poprzednich.size() > 1)
 	{
-		suma_opoznien += it->d_time;
-		if (d_t < suma_opoznien)
+		sf::Time suma_opoznien;
+		auto it = --zbior_poprzednich.end();
+		for (; it != zbior_poprzednich.begin(); it--)
 		{
-			break;
+			suma_opoznien += it->d_time;
+			if (d_t < suma_opoznien)
+				break;
+		}
+
+		if (it != zbior_poprzednich.begin()) //nie usuwamy gdy doszlismy do konca bo byslmy usuwali zawsze, w najgorszym wypadku odwleczemy usuniêcie o parê iteracji
+		{
+			zbior_poprzednich.erase(zbior_poprzednich.begin(), it); 
 		}
 	}
-	if (it != zbior_poprzednich.rend())
-	{
-
-	}
-
+	else return;
 }
 
 

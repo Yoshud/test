@@ -10,12 +10,13 @@
 /*
 Prosty projekt, rozwijany samodzielnie w czasie wolnym w ramach nauki programowania obiektowego (akurat w C++). Na chwilê obecn¹ pracujê nad sensownym interfejsem klasy Symulacja i chcê wprowadziæ pewne testy automatyczne. 
 Za³o¿eniami projektu by³o stworzenie prostego symulatora fizyki (na chwilê obecn¹ to okreœlenie jest sporo na wyrost, gdy¿ jedyn¹ symulowan¹ si³¹ jest grawitacja),
-który bêdzie z zewn¹trz widoczny na takim poziomie abstrakcji by mo¿na by³o ³atwo zmieniæ typ symulacji,
+który bêdzie z zewn¹trz widoczny na takim poziomie abstrakcji by mo¿na by³o ³atwo zmieniæ typ symulacji i sposób jej dzia³ania,
 lub dodaæ nowet typy obiektów (w planach jest algorytm który rekurencyjnie bêdzie potrafi³ dzieliæ obiekty na mniejsze (uproszczona wersja metody elementów skoñczonych)).
-St¹d podzia³ na dwie oddzielne klasy (najbli¿sze modelowi projektowemu fabryki), który ma na celu umo¿liwienie ³atwej zmiany i dodawania nowych rzeczy w dziedzinie symulacji b¹dŸ definicji obiektu. 
+St¹d podzia³ na dwie oddzielne klasy, który ma na celu umo¿liwienie ³atwej zmiany i dodawania nowych rzeczy w dziedzinie symulacji b¹dŸ definicji obiektu. (Wykorzystuje tu mieszankê i w³asn¹ woln¹ interpretacjiê modeli projektowych:
+fabryki (np. jeszcze nie stworzona funkcja dodaj_obiekt), builder(ca³e drzewo obj_fiz i Symulacja jako budowniczy), czy strategii (ca³a Symulacja z zewn¹trz jest postrzegana wg. tego wzorca projektowego)
 Na chwilê obecn¹ brakuje (ale s¹ w planach): wielu komentarzy, obs³ugi wyj¹tków, interfejsu klasy Symulacja, testów automatycznych, przeniesienia tego na automatyczne wskaŸniki. 
 Dodatkowe featery planowane do dodania to: wyœwietlanie tego z wykorzystaniem biblioteki SFML, dodanie symulacji FES, dodanie symulacji relatywistycznej, stworzenie fizyki zderzeñ, stworzenie klasy odpowiedzialnej za UI
-Uwaga: Z powodu b³êdów zwi¹zanych z konfiguracj¹ biblioteki SFML pod VS ten projekt dzia³a póki co tylko w trybie Debug (co na tym etapie nie jest dla mnie istotne, wiêc tego jeszcze nie naprawi³em)
+
 */
 
 using namespace std;

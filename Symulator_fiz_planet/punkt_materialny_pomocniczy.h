@@ -16,7 +16,11 @@ public:
 class zbior_punktow_materialnych_pomocniczy
 {
 public:
-	zbior_punktow_materialnych_pomocniczy(vector<punkt_materialny_pomocniczy> punkty_materialne) : punkty_materialne(punkty_materialne){}
+	zbior_punktow_materialnych_pomocniczy(vector<punkt_materialny_pomocniczy> punkty_materialne) : punkty_materialne(punkty_materialne) {}
+	zbior_punktow_materialnych_pomocniczy(wektor_2D<double> punkt, double masa)
+	{
+		punkty_materialne = vector<punkt_materialny_pomocniczy>{ punkt_materialny_pomocniczy(masa, punkt) };
+	}
 	int size() //jesli istnieje wektor zwraca jego rozmiar, jesli nie istnieje zwraca -1
 	{ 
 		try { return punkty_materialne.size(); }

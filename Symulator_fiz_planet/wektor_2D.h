@@ -7,14 +7,13 @@ class wektor_2D
 public:
 	wektor_2D();
 	wektor_2D(typ x, typ y);
-	//	~wektor_3D();
-	virtual wektor_2D operator+ (wektor_2D) const; //zdef
-	virtual wektor_2D operator+=(wektor_2D); //zdef
-	virtual wektor_2D operator-=(wektor_2D); //zdef
-	virtual wektor_2D operator- (wektor_2D) const; //zdef
-	virtual wektor_2D operator-() const; //zdef
-	virtual wektor_2D operator*(typ skalar) const;//zdef
-	virtual wektor_2D operator/(typ skalar) const;	//zdef
+	virtual wektor_2D operator+ (wektor_2D) const; 
+	virtual wektor_2D operator+=(wektor_2D); 
+	virtual wektor_2D operator-=(wektor_2D); 
+	virtual wektor_2D operator- (wektor_2D) const;
+	virtual wektor_2D operator-() const; 
+	virtual wektor_2D operator*(typ skalar) const;
+	virtual wektor_2D operator/(typ skalar) const;	
 	virtual typ operator*(wektor_2D) const; //iloczyn skalarny 
 
 	virtual typ iloczyn_wektorowy_2D(const wektor_2D& drugi) const
@@ -35,13 +34,12 @@ public:
 		return wy;
 	}
 
-	typ norma_2(const wektor_2D<typ> &drugi = wektor_2D<typ>()) const; //zdef
-	wektor_2D<typ>& normalizuj(); //zdef
+	typ norma_2(const wektor_2D<typ> &drugi = wektor_2D<typ>()) const; 
+	wektor_2D<typ>& normalizuj(); 
 protected:
 	typ x, y;
 
-
-	typ pow_2(const typ &wartosc) const;//zdef
+	typ pow_2(const typ &wartosc) const;
 };
 template <typename typ>
 wektor_2D<typ> operator*(typ skalar, wektor_2D<typ>);
